@@ -34,3 +34,9 @@ Equity MTM diario, net PnL, ret% diario aritmético y compuesto, Win Rate con n,
 
 ## Restricciones
 No órdenes reales, no promesas de estrategias necesariamente rentables, no profit diarios inventados, ni optimización con TEST. Ranking inicial = **prioridad heurística de investigación, no ranking de ganancias**.
+
+## Verificación de permisos del conector GitHub
+- Lectura: README.md y este archivo recuperados correctamente.
+- Creación: archivo creado mediante API Contents.
+- Edición: segunda actualización de este archivo mediante SHA de contenido.
+- No se ha activado ejecución de operaciones reales.
