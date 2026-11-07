@@ -1,0 +1,201 @@
+id,name,puntaje_utilidad,grupo,motivo,fuente_datos,prioridad_implementacion,estado,fuente,ranking
+IND_095,Donchian Channels Trend Ribbon,100,A,"regimen, tendencia y ruptura",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,1
+IND_096,Keltner Channels Volatility Bands,98,A,"regimen, tendencia y ruptura",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,2
+IND_091,ADX & DI Dynamic Filters,97,A,"regimen, tendencia y ruptura",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,3
+IND_104,Squeeze Momentum Deluxe,96,A,"regimen, tendencia y ruptura",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,4
+IND_185,Range Identifier (Consolidation Zones),95,A,"regimen, tendencia y ruptura",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,5
+IND_168,Previous Day/Week High & Low (PDH/PDL/PWH/PWL),94,A,feature complementaria,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,6
+IND_057,Taker Buy Ratio Spot (Binance),93,A,volumen / presion compradora,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,7
+IND_090,EMA Ribbon 8 Lines,92,A,"regimen, tendencia y ruptura",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,8
+IND_087,Supertrend Multi-Timeframe,91,A,"regimen, tendencia y ruptura",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,9
+IND_097,Choppiness Index (CHOP),90,A,"regimen, tendencia y ruptura",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,10
+IND_050,On-Balance Volume (OBV) Advanced,89,A,volumen / presion compradora,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,11
+IND_051,Chaikin Money Flow (CMF) 200,88,A,volumen / presion compradora,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,12
+IND_041,Volume Profile Visible Range (VPVR),87,A,"volumen / presion compradora; regimen, tendencia y ruptura",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,13
+IND_070,Volume Rate of Change (VROC),87,A,volumen / presion compradora,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,14
+IND_194,Fixed Range Volume Profile (FRVP),87,A,"volumen / presion compradora; regimen, tendencia y ruptura",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,15
+IND_137,Rate of Change (ROC) Percentage,86,A,feature complementaria,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,16
+IND_171,"Auto Pivot Points (Classic, Camarilla, Woodie)",85,A,"soporte, resistencia y T0",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,17
+IND_121,Relative Strength Index (RSI) Multi-Length,84,B,oscilador como filtro,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,18
+IND_047,Developing VWAP & Standard Bands,83,B,volumen / presion compradora,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,19
+IND_052,Accumulation/Distribution Line (A/D),82,B,feature complementaria,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,20
+IND_058,Volume Climax Detector,81,B,volumen / presion compradora,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,21
+IND_098,Linear Regression Slope Trendmeter,80,B,"regimen, tendencia y ruptura",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,22
+IND_163,High/Low Liquidity Pools,79,B,"soporte, resistencia y T0",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,23
+IND_184,Multi-Timeframe Market Structure Overlay,78,B,feature complementaria,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,24
+IND_200,Multi-Timeframe Trend Dashboard,77,B,"regimen, tendencia y ruptura",OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,25
+IND_173,Bill Williams Fractals,76,B,feature complementaria,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,26
+IND_029,Kaufman Efficiency Ratio (ER),75,B,feature complementaria,OHLCV (verificar formula),PRIORITARIO_OHLCV,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,27
+IND_012,Linear Momentum Slope (Quant),74,B,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,28
+IND_048,Cumulative Volume Delta (CVD) Spot,72,B,volumen / presion compradora; no recuperable de OHLCV historico,Datos de operaciones / L2 / derivados; NO existe OHLCV equivalente,EXTERNO_O_L2,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,29
+IND_061,Klinger Volume Oscillator (KVO),71,B,volumen / presion compradora; oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,30
+IND_062,Volume Weighted MACD,71,B,volumen / presion compradora; oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,31
+IND_063,Volume Zone Oscillator (VZO),71,B,volumen / presion compradora; oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,32
+IND_072,Percentage Volume Oscillator (PVO),71,B,volumen / presion compradora; oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,33
+IND_073,Volume Weighted RSI (VWRSI),71,B,volumen / presion compradora; oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,34
+IND_093,Aroon Oscillator Trend Strength,71,B,"regimen, tendencia y ruptura; oscilador como filtro",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,35
+IND_119,Detrended Price Oscillator (DPO),71,B,"regimen, tendencia y ruptura; oscilador como filtro",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,36
+IND_136,Chande Momentum Oscillator (CMO),71,B,"regimen, tendencia y ruptura; oscilador como filtro",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,37
+IND_139,Stochastic Momentum Index (SMI),71,B,"regimen, tendencia y ruptura; oscilador como filtro",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,38
+IND_155,RSI Trend Magic Overlay,71,B,"regimen, tendencia y ruptura; oscilador como filtro",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,39
+IND_160,Multi-Timeframe RSI Heatmap Matrix,71,B,"regimen, tendencia y ruptura; oscilador como filtro",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,40
+IND_003,Z-Score Distance from VWAP,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,41
+IND_008,Detrended Synthetic Price (DSP),69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,42
+IND_022,Correlative Volume Delta,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,43
+IND_040,Information Entropy Trend Index,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,44
+IND_042,Anchored Volume Profile (AVP),69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,45
+IND_044,High Volume Nodes (HVN) Area,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,46
+IND_045,Low Volume Nodes (LVN) Area,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,47
+IND_046,VWAP Anchored to Halving / Tops,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,48
+IND_053,Money Flow Index (MFI) Multi-timeframe,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,49
+IND_054,Volume Flow Indicator (VFI),69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,50
+IND_055,Volume Oscilator (Libero),69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,51
+IND_056,Weis Wave Volume Spot,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,52
+IND_060,Order Block Volume Delta,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,53
+IND_064,Negative Volume Index (NVI),69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,54
+IND_065,Positive Volume Index (PVI),69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,55
+IND_069,Net Buyer Volume (Binance Spot),69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,56
+IND_077,VIX of Volume,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,57
+IND_079,Volume Spread Analysis (VSA) Auto Alerts,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,58
+IND_085,Zero Lag Exponential Moving Average (ZLEMA),69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,59
+IND_099,Coral Trend Indicator,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,60
+IND_101,HalfTrend Indicator,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,61
+IND_102,Alpha Trend Indicator,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,62
+IND_103,Trend Magic Indicator,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,63
+IND_106,Rangos de Regresión Cuadrática,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,64
+IND_108,Z-Score Trend Filter,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,65
+IND_110,DEMA / TEMA Cross Overlay,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,66
+IND_114,Heikin Ashi Smoothed Trend,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,67
+IND_115,Kagi Chart Trend Overlay,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,68
+IND_116,Renko Bricks Trend Filter,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,69
+IND_126,Schaff Trend Cycle (STC),69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,70
+IND_127,WaveTrend Indicator (LazyBear),69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,71
+IND_129,Williams %R Momentum Bands,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,72
+IND_138,Disparity Index (Distance to EMA),69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,73
+IND_140,Dynamic Momentum Index (DMI),69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,74
+IND_147,Linear Momentum Tracker,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,75
+IND_152,Elder Force Index (EFI) 13 EMA,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,76
+IND_154,Momentum Pinball Indicator,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,77
+IND_156,Dynamic Trend Intensity Index (TII),69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,78
+IND_159,Detrended Momentum Index,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,79
+IND_164,Auto Order Blocks with Volume,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,80
+IND_172,DeMark Sequential (TD Sequential),69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,81
+IND_183,Gann Square Matrix,69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,82
+IND_186,Volume Profile Developing POC Line,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,83
+IND_187,Absorption Candle Detector,69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,84
+IND_188,Effort vs Result Indicator (VSA),69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,85
+IND_191,Trendlines with Alerts (Auto),69,C,"regimen, tendencia y ruptura",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,86
+IND_193,Session Volume Profile (SVP),69,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,87
+IND_169,Session High/Low Overlay,67,C,"soporte, resistencia y T0",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,88
+IND_177,Triangle Pattern Recognition,67,C,"soporte, resistencia y T0",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,89
+IND_179,Flag & Pennant Pattern Auto,67,C,"soporte, resistencia y T0",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,90
+IND_015,Sine Wave Oscillator (Ehlers),53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,91
+IND_034,Mean Reversion Z-Score Signal,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,92
+IND_035,Half-Life of Mean Reversion,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,93
+IND_092,Vortex Indicator (VI) Advanced,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,94
+IND_122,Stochastic RSI (StochRSI) Advanced,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,95
+IND_123,MACD Leader Indicator,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,96
+IND_124,Connors RSI (CRSI),53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,97
+IND_128,Commodity Channel Index (CCI) Woodies,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,98
+IND_130,Awesome Oscillator (AO) Twin Peaks,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,99
+IND_131,Accelerator Oscillator (AC),53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,100
+IND_133,Center of Gravity Oscillator (Ehlers),53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,101
+IND_134,Fisher Transform Gaussian,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,102
+IND_135,Ultimate Oscillator (Larry Williams),53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,103
+IND_142,Pretty Good Oscillator (PGO),53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,104
+IND_143,RSI Divergence Auto Scanner,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,105
+IND_144,MACD Custom Heatmap Oscillator,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,106
+IND_148,True MACD (Zero Lag),53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,107
+IND_149,PPO (Percentage Price Oscillator),53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,108
+IND_150,KST (Know Sure Thing) Oscillator,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,109
+IND_157,Stochastic Fast/Slow Overlay,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,110
+IND_170,Auto Fibonacci Retracement & Extension,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,111
+IND_192,Fibonacci Auto Channels,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,112
+IND_198,Vela Heikin Ashi Zone Oscillator,53,C,oscilador como filtro,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,113
+IND_002,Nadaraya-Watson Kernel Regression,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,114
+IND_004,Hurst Exponent Indicator,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,115
+IND_007,Empirical Mode Decomposition (EMD),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,116
+IND_009,Polynomial Regression Channels,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,117
+IND_010,Shannon Entropy Indicator,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,118
+IND_013,Variance Ratio Test Indicator,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,119
+IND_016,Cyber Cycle Indicator (John Ehlers),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,120
+IND_017,SuperSmoother Filter (Ehlers),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,121
+IND_018,Roofing Filter (Ehlers),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,122
+IND_019,MESA Adaptive Moving Average (MAMA),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,123
+IND_020,FAMA (Following Adaptive Moving Average),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,124
+IND_023,Beta relative to BTC,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,125
+IND_024,Pearson Correlation Coefficient Overlay,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,126
+IND_025,Jensen's Alpha Indicator,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,127
+IND_026,Sharpe Ratio Dynamic Indicator,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,128
+IND_027,Sortino Ratio Indicator,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,129
+IND_028,Treynor Ratio Index,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,130
+IND_030,Fractal Dimension Index (FDI),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,131
+IND_032,Skewness & Kurtosis Monitor,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,132
+IND_036,Co-integration Spread Monitor,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,133
+IND_037,Augmented Dickey-Fuller (ADF) Test Indicator,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,134
+IND_038,Spearman Rank Correlation,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,135
+IND_039,Information Ratio Monitor,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,136
+IND_043,Point of Control (POC) Dynamic,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,137
+IND_067,Ease of Movement (EOM) Smoothed,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,138
+IND_068,Market Facilitation Index (BW MFI),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,139
+IND_071,Smart Money Index (SMI),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,140
+IND_074,Intraday Intensity Index,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,141
+IND_075,Liquidity Pool Grab Signals,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,142
+IND_080,Volume Density Map Overlay,51,C,volumen / presion compradora,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,143
+IND_081,Hull Moving Average (HMA) Suite,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,144
+IND_082,Arnaud Legoux Moving Average (ALMA),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,145
+IND_083,Kaufman Adaptive Moving Average (KAMA),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,146
+IND_084,Tillson T3 Moving Average,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,147
+IND_086,McGinley Dynamic Indicator,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,148
+IND_088,Ichimoku Cloud Kumo Twist Tracker,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,149
+IND_089,Guppy Multiple Moving Average (GMMA),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,150
+IND_094,Parabolic SAR Advanced,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,151
+IND_100,SSL Hybrid Script,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,152
+IND_105,UT Bot Alerts Strategy Indicator,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,153
+IND_107,Rainbow Moving Average Spectrum,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,154
+IND_109,Triple Exponential Average (TRIX),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,155
+IND_111,Smoothed Moving Average (SMMA),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,156
+IND_112,Variable Index Dynamic Average (VIDYA),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,157
+IND_113,Wilder’s Smoothing Average,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,158
+IND_117,Three Line Break Indicator,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,159
+IND_118,Point & Figure Auto Charting,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,160
+IND_120,Mass Index Reversal Signal,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,161
+IND_125,QQE (Quantitative Qualitative Estimation) MOD,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,162
+IND_132,True Strength Index (TSI) Dual Line,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,163
+IND_141,Balance of Power (BOP),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,164
+IND_145,Relative Volatility Index (RVI),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,165
+IND_146,SMI Ergodic Indicator,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,166
+IND_151,Coppock Curve Macro Bottom Finder,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,167
+IND_153,Elder Ray Index (Bull/Bear Power),51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,168
+IND_158,Oscilador de Desviación Normalizada,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,169
+IND_162,Fair Value Gap (FVG) / Imbalance Detector,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,170
+IND_165,Breaker Block Detector,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,171
+IND_166,Mitigation Block Finder,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,172
+IND_167,Optimal Trade Entry (OTE) Auto Fib,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,173
+IND_174,Auto Harmonic Pattern Recognition,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,174
+IND_175,Auto Head and Shoulders Finder,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,175
+IND_176,Double Top / Bottom Pattern Detector,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,176
+IND_178,Rising / Falling Wedge Detector,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,177
+IND_180,Andrew’s Pitchfork Auto Tool,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,178
+IND_181,Schiff Pitchfork Adjustable,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,179
+IND_182,Gann Fan Auto Angles,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,180
+IND_190,Wyckoff Phase Classifier,51,C,feature complementaria,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,181
+IND_059,Large Orders Tracker / Whale Spikes,45,D,no recuperable de OHLCV historico,Datos de operaciones / L2 / derivados; NO existe OHLCV equivalente,EXTERNO_O_L2,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,182
+IND_005,Kalman Filter Price Smoother,42,D,estimacion intensiva / riesgo sobreajuste,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,183
+IND_006,Autoregressive Integrated Moving Average (ARIMA) Forecast,42,D,estimacion intensiva / riesgo sobreajuste,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,184
+IND_011,Fourier Transform Cycle Detector,42,D,estimacion intensiva / riesgo sobreajuste,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,185
+IND_014,"GARCH (1,1) Volatility Estimator",42,D,estimacion intensiva / riesgo sobreajuste,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,186
+IND_021,Fast Fourier Transform (FFT) Predictor,42,D,estimacion intensiva / riesgo sobreajuste,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,187
+IND_033,Markov Chain State Switching,42,D,estimacion intensiva / riesgo sobreajuste,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,188
+IND_199,Market Cipher A Clone (EMA Ribbons + Signals),41,D,"regimen, tendencia y ruptura; definicion/propiedad privada o replica aproximada",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,189
+IND_049,Spot vs. Futures Delta Divergence,40,D,no recuperable de OHLCV historico,Datos de operaciones / L2 / derivados; NO existe OHLCV equivalente,EXTERNO_O_L2,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,190
+IND_066,Trade Size Distribution Monitor,40,D,no recuperable de OHLCV historico,Datos de operaciones / L2 / derivados; NO existe OHLCV equivalente,EXTERNO_O_L2,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,191
+IND_076,Spot Inflow/Outflow Simulation Indicator,40,D,no recuperable de OHLCV historico,Datos de operaciones / L2 / derivados; NO existe OHLCV equivalente,EXTERNO_O_L2,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,192
+IND_078,Anchor Order Flow Delta,40,D,no recuperable de OHLCV historico,Datos de operaciones / L2 / derivados; NO existe OHLCV equivalente,EXTERNO_O_L2,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,193
+IND_197,Order Book Depth Imbalance Indicator,35,D,no recuperable de OHLCV historico,Datos de operaciones / L2 / derivados; NO existe OHLCV equivalente,EXTERNO_O_L2,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,194
+IND_196,Open Interest Overlay for Spot Analysis,29,E,no recuperable de OHLCV historico,Datos de operaciones / L2 / derivados; NO existe OHLCV equivalente,EXTERNO_O_L2,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,195
+IND_001,Lorentzian Classification (LuxAlgo),25,E,estimacion intensiva / riesgo sobreajuste; definicion/propiedad privada o replica aproximada,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,196
+IND_195,Liquidation Pressure Estimator (Spot Impact),24,E,no recuperable de OHLCV historico,Datos de operaciones / L2 / derivados; NO existe OHLCV equivalente,EXTERNO_O_L2,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,197
+IND_161,Smart Money Concepts (SMC) Suite (LuxAlgo),22,E,definicion/propiedad privada o replica aproximada,OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,198
+IND_189,Supply & Demand Zones (LuxAlgo),21,E,"regimen, tendencia y ruptura; definicion/propiedad privada o replica aproximada",OHLCV (verificar formula),EXPLORATORIO,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,199
+IND_031,VIX Style Volatility for BTC/USDT,17,E,necesita volatilidad implicita externa,No es VIX implicita sin mercado opciones compatible,EXTERNO_O_L2,FORMULA_AUDITAR_NO_EQUIVALE_A_ESTRATEGIA,CATALOGO_INDICADORES_200.json,200
