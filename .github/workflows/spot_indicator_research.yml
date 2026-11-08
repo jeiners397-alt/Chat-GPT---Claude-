@@ -1,6 +1,10 @@
 name: SPOT EDGE S2 - Indicator Research
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'SPOT_EDGE_S2_INDICATOR_RESEARCH/.run_smoke'
   workflow_dispatch:
     inputs:
       lookback_days:
@@ -44,8 +48,8 @@ jobs:
         run: >
           python spot_indicator_research.py
           --lookback-days ${{ github.event.inputs.lookback_days || '60' }}
-          --max-symbols ${{ github.event.inputs.max_symbols || '0' }}
-          --max-runtime-minutes ${{ github.event.inputs.max_runtime_minutes || '330' }}
+          --max-symbols ${{ github.event_name == 'push' && '5' || github.event.inputs.max_symbols || '0' }}
+          --max-runtime-minutes ${{ github.event_name == 'push' && '30' || github.event.inputs.max_runtime_minutes || '330' }}
 
       - name: Upload results as artifact
         if: always()
