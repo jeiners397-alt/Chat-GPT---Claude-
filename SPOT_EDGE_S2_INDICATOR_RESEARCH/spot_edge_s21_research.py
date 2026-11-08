@@ -78,11 +78,17 @@ logger = get_logger("spot_edge_s21_research")
 # AUDITORIA_CHATGPT_60D_FULL.md. Se auditan de nuevo aquí con el motor
 # corregido (sección 10 de la orden) SI aparecen en esta corrida.
 EIGHT_PROMISING_CONFIGS_S2 = [
+    # EXACTAMENTE las 8 configuraciones categoria A del S2 de 60d.
+    # No sustituir por TRIX (categoria D) ni por configuraciones negativas.
     # (indicator_name_substring, timeframe, horizon_hours)
-    ("Choppiness", "4h", 72), ("Choppiness", "1d", 72),
-    ("Shannon Entropy", "1h", 24), ("TRIX", "1d", 24),
-    ("Kaufman Efficiency Ratio", "4h", 4), ("Z-Score", "15m", 4),
-    ("Kalman", "1h", 72), ("Hurst", "4h", 24),
+    ("Shannon Entropy", "4h", 24),
+    ("Choppiness", "1h", 4),
+    ("Mass Index", "1h", 24),
+    ("Klinger", "1d", 24),
+    ("Choppiness", "4h", 4),
+    ("DEMA", "4h", 24),
+    ("Chande Momentum", "4h", 24),
+    ("Kalman", "1d", 24),
 ]
 EXTRAORDINARY_SYMBOLS = {"LSKUSDT", "ONEUSDT", "BMTUSDT"}
 
