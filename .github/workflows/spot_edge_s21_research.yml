@@ -1,6 +1,11 @@
 name: SPOT EDGE S2.1 - Research Engine Verified
 
 on:
+  push:
+    branches: [feature/spot-edge-s2-1]
+    paths:
+      - 'SPOT_EDGE_S2_INDICATOR_RESEARCH/.run_smoke_s21'
+      - 'SPOT_EDGE_S2_INDICATOR_RESEARCH/.run_full_s21'
   workflow_dispatch:
     inputs:
       max_symbols:
@@ -59,7 +64,7 @@ jobs:
           python spot_edge_s21_research.py
           --phase A
           --symbols BTCUSDT,ETHUSDT,SOLUSDT
-          --timeframes 1h,4h
+          --timeframes 1h,4h,1d
           --max-runtime-minutes 10
           --results-dir RESULTADOS_SPOT_EDGE_S21_SMOKE
 
@@ -75,7 +80,7 @@ jobs:
   full-run-phase-a:
     name: Fase A - periodo original (60 dias, reproduccion)
     needs: smoke-test
-    if: needs.smoke-test.outputs.smoke_ok == 'success'
+    if: needs.smoke-test.outputs.smoke_ok == 'success' && (github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, 'RUN_FULL_S21'))
     runs-on: ubuntu-latest
     timeout-minutes: 360
     defaults:
@@ -99,7 +104,7 @@ jobs:
         run: >
           python spot_edge_s21_research.py
           --phase A
-          --max-symbols ${{ github.event.inputs.max_symbols || '0' }}
+          --max-symbols ${{ github.event_name == 'push' && '0' || github.event.inputs.max_symbols || '0' }}
           --max-runtime-minutes ${{ github.event.inputs.max_runtime_minutes || '330' }}
 
       - name: Marcar ejecucion incompleta si se alcanzo el limite de tiempo
@@ -118,7 +123,7 @@ jobs:
   full-run-phase-b:
     name: Fase B - periodo historico adicional (fuera de muestra)
     needs: smoke-test
-    if: needs.smoke-test.outputs.smoke_ok == 'success' && (github.event.inputs.run_phase_b || 'true') == 'true'
+    if: needs.smoke-test.outputs.smoke_ok == 'success' && (github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, 'RUN_FULL_S21')) && (github.event.inputs.run_phase_b || 'true') == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 360
     defaults:
