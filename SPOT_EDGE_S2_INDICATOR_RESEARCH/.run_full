@@ -1,0 +1,7 @@
+experiment=SPOT_EDGE_S2
+universe=ALL_ELIGIBLE_BINANCE_SPOT_USDT
+lookback_days=60
+max_symbols=0
+max_runtime_minutes=330
+real_orders=false
+notes=GitHub Actions public Binance API, only stats output
