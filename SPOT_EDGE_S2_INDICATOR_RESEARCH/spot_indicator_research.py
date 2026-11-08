@@ -158,7 +158,7 @@ def main() -> int:
         # -- señales por indicador implementado -------------------------------
         if symbol != "BTCUSDT" or symbol in symbols:  # BTCUSDT también se evalúa si pasó el filtro de universo
             for tf, df in per_timeframe_df.items():
-                mask_main_range = df["open_time"] >= pd.Timestamp(main_start_dt, tz="UTC")
+                mask_main_range = df["open_time"] >= pd.Timestamp(main_start_dt)
                 btc_close_ref = btc_close_by_timeframe.get(tf)
 
                 for ind_def in implemented_defs:
@@ -172,8 +172,8 @@ def main() -> int:
                         continue
 
                     sig_masked = sig_full.fillna(False) & mask_main_range
-                    sig_exploration = sig_masked & (df["open_time"] < pd.Timestamp(exploration_end_dt, tz="UTC"))
-                    sig_confirmation = sig_masked & (df["open_time"] >= pd.Timestamp(exploration_end_dt, tz="UTC"))
+                    sig_exploration = sig_masked & (df["open_time"] < pd.Timestamp(exploration_end_dt))
+                    sig_confirmation = sig_masked & (df["open_time"] >= pd.Timestamp(exploration_end_dt))
 
                     for horizon in run_cfg.horizons_hours:
                         bars = horizon_to_bars(horizon, tf)
