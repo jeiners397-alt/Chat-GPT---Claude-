@@ -87,6 +87,8 @@ class BinanceClient:
                 time.sleep(MIN_SLEEP_BETWEEN_REQUESTS)
                 return resp.json()
             except requests.RequestException as exc:
+                if isinstance(exc, requests.HTTPError) and exc.response is not None and exc.response.status_code == 451:
+                    raise RuntimeError(f'Binance bloquea por región (HTTP 451) {base_url}{path}; este runner no puede consultar Binance Spot. No se inventan datos.') from exc
                 last_exc = exc
                 wait = RETRY_BACKOFF_BASE_SECONDS * (2 ** (attempt - 1))
                 logger.warning(f"Error de red en {path} (intento {attempt}/{MAX_RETRIES}): {exc}. Reintentando en {wait:.1f}s")
@@ -95,10 +97,10 @@ class BinanceClient:
 
     # -- universo -------------------------------------------------------------
     def get_exchange_info(self) -> dict:
-        return self._get(BINANCE_SPOT_API_BASE, "/api/v3/exchangeInfo", {})
+        return self._get(BINANCE_DATA_API_BASE, "/api/v3/exchangeInfo", {})
 
     def get_24h_tickers(self) -> list:
-        return self._get(BINANCE_SPOT_API_BASE, "/api/v3/ticker/24hr", {})
+        return self._get(BINANCE_DATA_API_BASE, "/api/v3/ticker/24hr", {})
 
     # -- velas (en memoria, sin persistir a disco) -----------------------------
     def get_klines_dataframe(
