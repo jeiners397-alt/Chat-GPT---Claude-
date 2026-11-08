@@ -1,0 +1,1206 @@
+{
+  "warning": "Lista suministrada por usuario, no hay prueba de implementaciones exactas.",
+  "count": 200,
+  "items": [
+    {
+      "id": 1,
+      "name": "Lorentzian Classification (LuxAlgo)",
+      "user_description": "Aprendizaje automático k-NN para clasificación de patrones.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 2,
+      "name": "Nadaraya-Watson Kernel Regression",
+      "user_description": "Envolvente de estimación no paramétrica sin desfasaje de media.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 3,
+      "name": "Z-Score Distance from VWAP",
+      "user_description": "Desviación estadística en unidades Z respecto al valor ponderado.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 4,
+      "name": "Hurst Exponent Indicator",
+      "user_description": "Mide si el activo está en tendencia ($H > 0.5$) o en reversión ($H < 0.5$).",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 5,
+      "name": "Kalman Filter Price Smoother",
+      "user_description": "Filtro estadístico adaptativo que elimina ruido de fondo.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 6,
+      "name": "Autoregressive Integrated Moving Average (ARIMA) Forecast",
+      "user_description": "Modelo econométrico de proyección de precios.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 7,
+      "name": "Empirical Mode Decomposition (EMD)",
+      "user_description": "Aísla ondas y ciclos intrínsecos del precio.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 8,
+      "name": "Detrended Synthetic Price (DSP)",
+      "user_description": "Extrae ciclos puros eliminando la componente tendencial.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 9,
+      "name": "Polynomial Regression Channels",
+      "user_description": "Ajuste de curvas polinomiales de grado 2 a 5 sobre el precio.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 10,
+      "name": "Shannon Entropy Indicator",
+      "user_description": "Mide el grado de incertidumbre y desorden en la acción del precio.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 11,
+      "name": "Fourier Transform Cycle Detector",
+      "user_description": "Identifica frecuencias dominantes dentro del gráfico.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 12,
+      "name": "Linear Momentum Slope (Quant)",
+      "user_description": "Mide la aceleración de la pendiente de regresión lineal.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 13,
+      "name": "Variance Ratio Test Indicator",
+      "user_description": "Evalúa si el precio sigue un paseo aleatorio (Random Walk).",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 14,
+      "name": "GARCH (1,1) Volatility Estimator",
+      "user_description": "Modelo cuantitativo de heterocedasticidad condicional autorregresiva.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 15,
+      "name": "Sine Wave Oscillator (Ehlers)",
+      "user_description": "Aísla componentes cíclicas usando el algoritmo de MESA.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 16,
+      "name": "Cyber Cycle Indicator (John Ehlers)",
+      "user_description": "Oscilador sin desfase ajustado a ciclos de mercado.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 17,
+      "name": "SuperSmoother Filter (Ehlers)",
+      "user_description": "Filtro de 2 polos que reduce el ruido sin introducir lag.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 18,
+      "name": "Roofing Filter (Ehlers)",
+      "user_description": "Remueve tendencias de baja frecuencia y ruido de alta frecuencia.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 19,
+      "name": "MESA Adaptive Moving Average (MAMA)",
+      "user_description": "Media adaptativa basada en la fase del ciclo.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 20,
+      "name": "FAMA (Following Adaptive Moving Average)",
+      "user_description": "Media complementaria a MAMA para generar señales puras.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 21,
+      "name": "Fast Fourier Transform (FFT) Predictor",
+      "user_description": "Proyecta ciclos futuros basados en ondas armónicas.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 22,
+      "name": "Correlative Volume Delta",
+      "user_description": "Correlación cruzada entre cambio de precio y delta de volumen.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 23,
+      "name": "Beta relative to BTC",
+      "user_description": "Cuantifica la sensibilidad de un altcoin frente al movimiento de Bitcoin.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 24,
+      "name": "Pearson Correlation Coefficient Overlay",
+      "user_description": "Correlación estadística entre dos activos Spot en tiempo real.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 25,
+      "name": "Jensen's Alpha Indicator",
+      "user_description": "Mide el rendimiento ajustado por riesgo en comparación con el benchmark.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 26,
+      "name": "Sharpe Ratio Dynamic Indicator",
+      "user_description": "Visualiza la relación riesgo-retorno móvil en la ventana actual.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 27,
+      "name": "Sortino Ratio Indicator",
+      "user_description": "Ratio de rendimiento evaluando únicamente la volatilidad bajista.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 28,
+      "name": "Treynor Ratio Index",
+      "user_description": "Mide el exceso de retorno por unidad de riesgo sistemático.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 29,
+      "name": "Kaufman Efficiency Ratio (ER)",
+      "user_description": "Ratio de eficiencia entre el desplazamiento del precio y el ruido.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 30,
+      "name": "Fractal Dimension Index (FDI)",
+      "user_description": "Determina la rugosidad del gráfico para identificar tendencias.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 31,
+      "name": "VIX Style Volatility for BTC/USDT",
+      "user_description": "Índice de volatilidad implícita en Binance.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 32,
+      "name": "Skewness & Kurtosis Monitor",
+      "user_description": "Cuantifica la asimetría y el apuntamiento de la distribución de retornos.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 33,
+      "name": "Markov Chain State Switching",
+      "user_description": "Estimador de probabilidad de transición entre estados de mercado.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 34,
+      "name": "Mean Reversion Z-Score Signal",
+      "user_description": "Alertas estadísticas en desvíos $\\pm 2.5\\sigma$.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 35,
+      "name": "Half-Life of Mean Reversion",
+      "user_description": "Estimador del tiempo que toma el precio en regresar a su media.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 36,
+      "name": "Co-integration Spread Monitor",
+      "user_description": "Utilizado para estrategias de Pair Trading entre criptomonedas.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 37,
+      "name": "Augmented Dickey-Fuller (ADF) Test Indicator",
+      "user_description": "Verifica si una serie de precios es estacionaria.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 38,
+      "name": "Spearman Rank Correlation",
+      "user_description": "Correlación de rangos no paramétrica aplicada al volumen y precio.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 39,
+      "name": "Information Ratio Monitor",
+      "user_description": "Mide la consistencia del rendimiento sobre un índice de referencia.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 40,
+      "name": "Information Entropy Trend Index",
+      "user_description": "Detecta el colapso de volatilidad antes de explosiones de precio.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 41,
+      "name": "Volume Profile Visible Range (VPVR)",
+      "user_description": "Volumen negociado en cada nivel discreto de precio.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 42,
+      "name": "Anchored Volume Profile (AVP)",
+      "user_description": "Perfil de volumen anclado a eventos macro o suelos históricos.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 43,
+      "name": "Point of Control (POC) Dynamic",
+      "user_description": "Rastreo de la línea del nivel de precio más negociado.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 44,
+      "name": "High Volume Nodes (HVN) Area",
+      "user_description": "Zonas de consolidación e interés institucional.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 45,
+      "name": "Low Volume Nodes (LVN) Area",
+      "user_description": "Vacíos donde el precio se desplaza a gran velocidad.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 46,
+      "name": "VWAP Anchored to Halving / Tops",
+      "user_description": "VWAP iniciado en eventos macro de suministro.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 47,
+      "name": "Developing VWAP & Standard Bands",
+      "user_description": "VWAP en tiempo real con bandas de 1, 2 y 3 desviaciones.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 48,
+      "name": "Cumulative Volume Delta (CVD) Spot",
+      "user_description": "Medidor acumulado de presión compradora de mercado (Market Orders).",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 49,
+      "name": "Spot vs. Futures Delta Divergence",
+      "user_description": "Divergencias entre compras Spot reales y apalancamiento.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 50,
+      "name": "On-Balance Volume (OBV) Advanced",
+      "user_description": "OBV con media móvil adaptativa para filtrar divergencias.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 51,
+      "name": "Chaikin Money Flow (CMF) 200",
+      "user_description": "Flujo de dinero ajustado para ventanas institucionales.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 52,
+      "name": "Accumulation/Distribution Line (A/D)",
+      "user_description": "Mide el balance de presión acumulativa.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 53,
+      "name": "Money Flow Index (MFI) Multi-timeframe",
+      "user_description": "RSI ponderado por volumen en matrices.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 54,
+      "name": "Volume Flow Indicator (VFI)",
+      "user_description": "Medidor cuantitativo de entradas de capital.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 55,
+      "name": "Volume Oscilator (Libero)",
+      "user_description": "Oscilador de diferencia de tasas de volumen.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 56,
+      "name": "Weis Wave Volume Spot",
+      "user_description": "Ondas de volumen de Wyckoff aplicadas a la acción del precio.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 57,
+      "name": "Taker Buy Ratio Spot (Binance)",
+      "user_description": "Proporción de volumen ejecutado al Ask (compras agresivas).",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 58,
+      "name": "Volume Climax Detector",
+      "user_description": "Filtra barras con volumen superior a 3 desviaciones estándar.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 59,
+      "name": "Large Orders Tracker / Whale Spikes",
+      "user_description": "Identifica ejecuciones Spot de alto valor nominal.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 60,
+      "name": "Order Block Volume Delta",
+      "user_description": "Mide la absorción dentro de bloques de órdenes spot.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 61,
+      "name": "Klinger Volume Oscillator (KVO)",
+      "user_description": "Mide la fuerza del flujo financiero a largo plazo.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 62,
+      "name": "Volume Weighted MACD",
+      "user_description": "MACD ponderado por el volumen negociado en el Spot.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 63,
+      "name": "Volume Zone Oscillator (VZO)",
+      "user_description": "Identifica transiciones entre acumulación y distribución.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 64,
+      "name": "Negative Volume Index (NVI)",
+      "user_description": "Monitorea la actividad del dinero inteligente en días de bajo volumen.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 65,
+      "name": "Positive Volume Index (PVI)",
+      "user_description": "Monitorea las compras del público general en días de alto volumen.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 66,
+      "name": "Trade Size Distribution Monitor",
+      "user_description": "Desglose de ejecuciones según el tamaño del lote.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 67,
+      "name": "Ease of Movement (EOM) Smoothed",
+      "user_description": "Evalúa cuánta fuerza de volumen se requiere para mover el precio.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 68,
+      "name": "Market Facilitation Index (BW MFI)",
+      "user_description": "Mide la eficiencia del volumen por tick.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 69,
+      "name": "Net Buyer Volume (Binance Spot)",
+      "user_description": "Volumen neto comprador libre de operaciones neutrales.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 70,
+      "name": "Volume Rate of Change (VROC)",
+      "user_description": "Velocidad de aceleración del volumen ingresado.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 71,
+      "name": "Smart Money Index (SMI)",
+      "user_description": "Identifica flujo institucional en aperturas y cierres de sesión.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 72,
+      "name": "Percentage Volume Oscillator (PVO)",
+      "user_description": "Medidor porcentual de impulso volumétrico.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 73,
+      "name": "Volume Weighted RSI (VWRSI)",
+      "user_description": "RSI filtrado por la significancia del volumen.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 74,
+      "name": "Intraday Intensity Index",
+      "user_description": "Cuantifica la posición del cierre dentro del rango diario ajustado por volumen.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 75,
+      "name": "Liquidity Pool Grab Signals",
+      "user_description": "Detecta barridos de órdenes en soportes Spot.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 76,
+      "name": "Spot Inflow/Outflow Simulation Indicator",
+      "user_description": "Estimador de flujo neto hacia billeteras.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 77,
+      "name": "VIX of Volume",
+      "user_description": "Mide la inestabilidad en los volúmenes transaccionados.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 78,
+      "name": "Anchor Order Flow Delta",
+      "user_description": "Rastreo de deltas desde pivots clave.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 79,
+      "name": "Volume Spread Analysis (VSA) Auto Alerts",
+      "user_description": "Detección de velas de absorción y \"No Supply\".",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 80,
+      "name": "Volume Density Map Overlay",
+      "user_description": "Mapa de calor de concentración de volumen en el gráfico.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 81,
+      "name": "Hull Moving Average (HMA) Suite",
+      "user_description": "Medias móviles sin retraso con códigos de color de dirección.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 82,
+      "name": "Arnaud Legoux Moving Average (ALMA)",
+      "user_description": "Filtro gaussiano para suavizado perfecto con baja latencia.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 83,
+      "name": "Kaufman Adaptive Moving Average (KAMA)",
+      "user_description": "Media ajustada automáticamente a la volatilidad del activo.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 84,
+      "name": "Tillson T3 Moving Average",
+      "user_description": "Media de triple suavizado para evitar falsas señales.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 85,
+      "name": "Zero Lag Exponential Moving Average (ZLEMA)",
+      "user_description": "EMA con corrección de desfase temporal.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 86,
+      "name": "McGinley Dynamic Indicator",
+      "user_description": "Mecanismo que ajusta su velocidad a la aceleración del mercado.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 87,
+      "name": "Supertrend Multi-Timeframe",
+      "user_description": "Supertrend superpuesto desde marcos temporales superiores.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 88,
+      "name": "Ichimoku Cloud Kumo Twist Tracker",
+      "user_description": "Rastreador de proyecciones y cambios en la nube Ichimoku.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 89,
+      "name": "Guppy Multiple Moving Average (GMMA)",
+      "user_description": "Red de 12 medias móviles para ver compresión/expansión.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 90,
+      "name": "EMA Ribbon 8 Lines",
+      "user_description": "Abanico de exponenciales para confirmar estructuras alcistas.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 91,
+      "name": "ADX & DI Dynamic Filters",
+      "user_description": "Fuerza de tendencia con bandas de tolerancia.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 92,
+      "name": "Vortex Indicator (VI) Advanced",
+      "user_description": "Identifica el origen de movimientos direccionales.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 93,
+      "name": "Aroon Oscillator Trend Strength",
+      "user_description": "Mide la proximidad de nuevos máximos históricos.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 94,
+      "name": "Parabolic SAR Advanced",
+      "user_description": "Puntos SAR ajustados por volatilidad ATR variable.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 95,
+      "name": "Donchian Channels Trend Ribbon",
+      "user_description": "Canales de ruptura adaptados a ciclos semanales.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 96,
+      "name": "Keltner Channels Volatility Bands",
+      "user_description": "Canales basados en medias móviles exponenciales y ATR.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 97,
+      "name": "Choppiness Index (CHOP)",
+      "user_description": "Determina si la acción del precio es lateral ($>61.8$) o tendencial ($<38.2$).",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 98,
+      "name": "Linear Regression Slope Trendmeter",
+      "user_description": "Medidor del ángulo de la tendencia predominante.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 99,
+      "name": "Coral Trend Indicator",
+      "user_description": "Media suavizada que identifica giros macro.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 100,
+      "name": "SSL Hybrid Script",
+      "user_description": "Canal SSL combinado con envolventes Keltner para filtrar tendencias.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 101,
+      "name": "HalfTrend Indicator",
+      "user_description": "Algoritmo simplificado de seguimiento de tendencias sin ruido.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 102,
+      "name": "Alpha Trend Indicator",
+      "user_description": "Filtro de tendencia adaptativo respaldado por el indicador MFI.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 103,
+      "name": "Trend Magic Indicator",
+      "user_description": "Combina el indicador CCI con rangos ATR.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 104,
+      "name": "Squeeze Momentum Deluxe",
+      "user_description": "Detección de fases de compresión y posterior explosión direccional.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 105,
+      "name": "UT Bot Alerts Strategy Indicator",
+      "user_description": "Algoritmo de señales basado en parámetros de trailing stop ATR.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 106,
+      "name": "Rangos de Regresión Cuadrática",
+      "user_description": "Ajuste no lineal de canal sobre el gráfico.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 107,
+      "name": "Rainbow Moving Average Spectrum",
+      "user_description": "10+ SMAs con degradado cromático de profundidad.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 108,
+      "name": "Z-Score Trend Filter",
+      "user_description": "Identifica cuando una tendencia está estadísticamente extendida.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 109,
+      "name": "Triple Exponential Average (TRIX)",
+      "user_description": "Rate of change triple suavizado.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 110,
+      "name": "DEMA / TEMA Cross Overlay",
+      "user_description": "Cruces de doble y triple media móvil exponencial.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 111,
+      "name": "Smoothed Moving Average (SMMA)",
+      "user_description": "Media ideal para identificar soportes en gráficos semanales.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 112,
+      "name": "Variable Index Dynamic Average (VIDYA)",
+      "user_description": "Media móvil que ajusta su factor de suavizado mediante el CMO.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 113,
+      "name": "Wilder’s Smoothing Average",
+      "user_description": "Media desarrollada para coincidir con la lógica del RSI.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 114,
+      "name": "Heikin Ashi Smoothed Trend",
+      "user_description": "Filtro de velas para permanecer en tendencias Spot prolongadas.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 115,
+      "name": "Kagi Chart Trend Overlay",
+      "user_description": "Líneas de tendencia basadas únicamente en la magnitud de reversión.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 116,
+      "name": "Renko Bricks Trend Filter",
+      "user_description": "Gráficos independientes del tiempo centrados en bloques de precio.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 117,
+      "name": "Three Line Break Indicator",
+      "user_description": "Filtra movimientos menores exigiendo rupturas de 3 líneas previas.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 118,
+      "name": "Point & Figure Auto Charting",
+      "user_description": "Representación X/O para evaluar oferta y demanda pura.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 119,
+      "name": "Detrended Price Oscillator (DPO)",
+      "user_description": "Aísla el precio de la tendencia para ubicar soportes cíclicos.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 120,
+      "name": "Mass Index Reversal Signal",
+      "user_description": "Identifica ensanchamientos del rango que preceden a cambios de tendencia.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 121,
+      "name": "Relative Strength Index (RSI) Multi-Length",
+      "user_description": "RSI con múltiples ventanas temporales simultáneas.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 122,
+      "name": "Stochastic RSI (StochRSI) Advanced",
+      "user_description": "Oscilador estocástico aplicado sobre los valores del RSI.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 123,
+      "name": "MACD Leader Indicator",
+      "user_description": "MACD anticipatorio ajustado para reducir la latencia de la línea de señal.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 124,
+      "name": "Connors RSI (CRSI)",
+      "user_description": "Combinación de RSI, Streak RSI y Rate of Change (ROC).",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 125,
+      "name": "QQE (Quantitative Qualitative Estimation) MOD",
+      "user_description": "RSI con bandas de volatilidad e histograma filtrado.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 126,
+      "name": "Schaff Trend Cycle (STC)",
+      "user_description": "Algoritmo que procesa el MACD a través de ciclos estocásticos.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 127,
+      "name": "WaveTrend Indicator (LazyBear)",
+      "user_description": "Oscilador de alta precisión para detectar valles y techos.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 128,
+      "name": "Commodity Channel Index (CCI) Woodies",
+      "user_description": "Versión extendida del CCI con barras de confirmación.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 129,
+      "name": "Williams %R Momentum Bands",
+      "user_description": "Oscilador de sobrecompra/sobreventa con bandas de volatilidad.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 130,
+      "name": "Awesome Oscillator (AO) Twin Peaks",
+      "user_description": "Identifica impulsos y divergencias en barras de histograma.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 131,
+      "name": "Accelerator Oscillator (AC)",
+      "user_description": "Mide el cambio en la aceleración del Awesome Oscillator.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 132,
+      "name": "True Strength Index (TSI) Dual Line",
+      "user_description": "Oscilador doblemente suavizado para señalar impulsos macro.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 133,
+      "name": "Center of Gravity Oscillator (Ehlers)",
+      "user_description": "Oscilador que identifica puntos de giro sin desfase temporal.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 134,
+      "name": "Fisher Transform Gaussian",
+      "user_description": "Convierte precios en una distribución normal gaussianizada.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 135,
+      "name": "Ultimate Oscillator (Larry Williams)",
+      "user_description": "Combina tres marcos temporales en un oscilador ponderado.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 136,
+      "name": "Chande Momentum Oscillator (CMO)",
+      "user_description": "Mide el momentum calculando directamente las variaciones.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 137,
+      "name": "Rate of Change (ROC) Percentage",
+      "user_description": "Tasa de variación porcentual pura entre períodos.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 138,
+      "name": "Disparity Index (Distance to EMA)",
+      "user_description": "Distancia porcentual que separa el precio de su media clave.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 139,
+      "name": "Stochastic Momentum Index (SMI)",
+      "user_description": "Mide la distancia del cierre respecto al punto medio del rango.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 140,
+      "name": "Dynamic Momentum Index (DMI)",
+      "user_description": "RSI que ajusta automáticamente la longitud de sus velas según la volatilidad.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 141,
+      "name": "Balance of Power (BOP)",
+      "user_description": "Mide la capacidad de los compradores para empujar el precio a extremos.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 142,
+      "name": "Pretty Good Oscillator (PGO)",
+      "user_description": "Distancia entre el cierre y su SMA dividida entre el ATR.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 143,
+      "name": "RSI Divergence Auto Scanner",
+      "user_description": "Detector automático de divergencias regulares y ocultas.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 144,
+      "name": "MACD Custom Heatmap Oscillator",
+      "user_description": "Mapa de calor de intensidad integrado al histograma del MACD.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 145,
+      "name": "Relative Volatility Index (RVI)",
+      "user_description": "Mide la dirección de los precios evaluando la desviación estándar.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 146,
+      "name": "SMI Ergodic Indicator",
+      "user_description": "Oscilador SMI refinado con línea de señal de triple suavizado.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 147,
+      "name": "Linear Momentum Tracker",
+      "user_description": "Registra la persistencia del movimiento en tendencias Spot.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 148,
+      "name": "True MACD (Zero Lag)",
+      "user_description": "MACD ajustado para eliminar el desfase de las medias móviles.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 149,
+      "name": "PPO (Percentage Price Oscillator)",
+      "user_description": "Expresa la diferencia de medias móviles en términos porcentuales.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 150,
+      "name": "KST (Know Sure Thing) Oscillator",
+      "user_description": "Oscilador ponderado compuesto por cuatro tasas de cambio distintas.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 151,
+      "name": "Coppock Curve Macro Bottom Finder",
+      "user_description": "Diseñado históricamente para ubicar suelos de mercado macro.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 152,
+      "name": "Elder Force Index (EFI) 13 EMA",
+      "user_description": "Mide la fuerza detrás de cada vela Spot combinando precio y volumen.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 153,
+      "name": "Elder Ray Index (Bull/Bear Power)",
+      "user_description": "Mide la capacidad de los compradores/vendedores de superar la media.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 154,
+      "name": "Momentum Pinball Indicator",
+      "user_description": "Oscilador stoch-RSI especializado en rupturas de rango de 1 día.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 155,
+      "name": "RSI Trend Magic Overlay",
+      "user_description": "Filtro que une las variaciones del RSI con la acción del precio.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 156,
+      "name": "Dynamic Trend Intensity Index (TII)",
+      "user_description": "Mide el porcentaje de precios por encima o debajo de la media.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 157,
+      "name": "Stochastic Fast/Slow Overlay",
+      "user_description": "Comparador de estocásticos de alta y baja velocidad.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 158,
+      "name": "Oscilador de Desviación Normalizada",
+      "user_description": "Oscilador ajustado que mide anomalías de mercado en desviaciones.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 159,
+      "name": "Detrended Momentum Index",
+      "user_description": "Momentum filtrado libre de la dirección general del mercado.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 160,
+      "name": "Multi-Timeframe RSI Heatmap Matrix",
+      "user_description": "Panel que consolida el estado del RSI desde 15m hasta 1D.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 161,
+      "name": "Smart Money Concepts (SMC) Suite (LuxAlgo)",
+      "user_description": "Mapeo automatizado de BOS, CHoCH y Order Blocks.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 162,
+      "name": "Fair Value Gap (FVG) / Imbalance Detector",
+      "user_description": "Marca vacíos de liquidez no negociados en el gráfico Spot.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 163,
+      "name": "High/Low Liquidity Pools",
+      "user_description": "Identifica acumulación de órdenes en máximos y mínimos previos.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 164,
+      "name": "Auto Order Blocks with Volume",
+      "user_description": "Bloques de órdenes validados por un incremento en el volumen Spot.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 165,
+      "name": "Breaker Block Detector",
+      "user_description": "Order blocks fallidos que se convierten en zonas de soporte/resistencia.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 166,
+      "name": "Mitigation Block Finder",
+      "user_description": "Zonas donde las instituciones cierran posiciones en breakeven.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 167,
+      "name": "Optimal Trade Entry (OTE) Auto Fib",
+      "user_description": "Destaca la zona dorada entre el 0.705 y el 0.79 de Fibonacci.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 168,
+      "name": "Previous Day/Week High & Low (PDH/PDL/PWH/PWL)",
+      "user_description": "Marcas de liquidez institucional de periodos previos.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 169,
+      "name": "Session High/Low Overlay",
+      "user_description": "Destaca los límites de las sesiones de Asia, Londres y Nueva York.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 170,
+      "name": "Auto Fibonacci Retracement & Extension",
+      "user_description": "Niveles de proyección áurea dibujados automáticamente.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 171,
+      "name": "Auto Pivot Points (Classic, Camarilla, Woodie)",
+      "user_description": "Matriz de puntos de inflexión para el trading de rango.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 172,
+      "name": "DeMark Sequential (TD Sequential)",
+      "user_description": "Conteo del 1 al 9 para identificar agotamiento de la tendencia.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 173,
+      "name": "Bill Williams Fractals",
+      "user_description": "Identifica puntos de inflexión locales formados por 5 velas.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 174,
+      "name": "Auto Harmonic Pattern Recognition",
+      "user_description": "Identificación de patrones Gartley, Bat, Butterfly y Crab.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 175,
+      "name": "Auto Head and Shoulders Finder",
+      "user_description": "Detector del patrón Hombro-Cabeza-Hombro y su versión invertida.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 176,
+      "name": "Double Top / Bottom Pattern Detector",
+      "user_description": "Identificación de patrones de reversión en doble techo y suelo.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 177,
+      "name": "Triangle Pattern Recognition",
+      "user_description": "Detecta patrones de triángulos simétricos, ascendentes y descendentes.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 178,
+      "name": "Rising / Falling Wedge Detector",
+      "user_description": "Identifica cuñas de agotamiento alcistas y bajistas.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 179,
+      "name": "Flag & Pennant Pattern Auto",
+      "user_description": "Detecta patrones de banderas y banderines de continuación.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 180,
+      "name": "Andrew’s Pitchfork Auto Tool",
+      "user_description": "Canales medianos dibujados a partir de tres puntos estructurales.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 181,
+      "name": "Schiff Pitchfork Adjustable",
+      "user_description": "Variaciones de tridentes ajustados para tendencias moderadas.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 182,
+      "name": "Gann Fan Auto Angles",
+      "user_description": "Ángulos geométricos de W.D. Gann trazados sobre pivots clave.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 183,
+      "name": "Gann Square Matrix",
+      "user_description": "Matriz de tiempo y precio para proyecciones de ciclos.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 184,
+      "name": "Multi-Timeframe Market Structure Overlay",
+      "user_description": "Muestra la estructura de marcos superiores en el gráfico actual.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 185,
+      "name": "Range Identifier (Consolidation Zones)",
+      "user_description": "Detecta automáticamente periodos de lateralidad.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 186,
+      "name": "Volume Profile Developing POC Line",
+      "user_description": "Línea en tiempo real del desplazamiento del POC.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 187,
+      "name": "Absorption Candle Detector",
+      "user_description": "Identifica velas con mechas largas y elevado volumen de parada.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 188,
+      "name": "Effort vs Result Indicator (VSA)",
+      "user_description": "Contrasta el tamaño de la vela con el volumen ingresado.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 189,
+      "name": "Supply & Demand Zones (LuxAlgo)",
+      "user_description": "Zonas de oferta y demanda institucional basadas en desequilibrios.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 190,
+      "name": "Wyckoff Phase Classifier",
+      "user_description": "Etiquetas estimadas para las Fases A, B, C, D y E de Wyckoff.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 191,
+      "name": "Trendlines with Alerts (Auto)",
+      "user_description": "Trazado dinámico de líneas de tendencia con ruptura confirmada.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 192,
+      "name": "Fibonacci Auto Channels",
+      "user_description": "Canales diagonales construidos según las proporciones de Fibonacci.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 193,
+      "name": "Session Volume Profile (SVP)",
+      "user_description": "Perfil de volumen desglosado de forma independiente por cada sesión.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 194,
+      "name": "Fixed Range Volume Profile (FRVP)",
+      "user_description": "Análisis de perfil de volumen sobre selecciones manuales.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 195,
+      "name": "Liquidation Pressure Estimator (Spot Impact)",
+      "user_description": "Mide cómo la presión de liquidaciones en futuros impacta el spot.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 196,
+      "name": "Open Interest Overlay for Spot Analysis",
+      "user_description": "Superpone el interés abierto de derivados para evaluar el mercado Spot.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 197,
+      "name": "Order Book Depth Imbalance Indicator",
+      "user_description": "Visualiza desequilibrios en el libro de órdenes Spot.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 198,
+      "name": "Vela Heikin Ashi Zone Oscillator",
+      "user_description": "Oscilador derivado de la continuidad de las velas Heikin Ashi.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 199,
+      "name": "Market Cipher A Clone (EMA Ribbons + Signals)",
+      "user_description": "Visualizador de ondas de medias y señales de impulso.",
+      "status": "PENDING_VERIFICATION"
+    },
+    {
+      "id": 200,
+      "name": "Multi-Timeframe Trend Dashboard",
+      "user_description": "Panel resumen que muestra la dirección de la tendencia en 1m, 15m, 1H, 4H y 1D.",
+      "status": "PENDING_VERIFICATION"
+    }
+  ]
+}

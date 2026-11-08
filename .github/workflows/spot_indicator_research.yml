@@ -1,0 +1,57 @@
+name: SPOT EDGE S2 - Indicator Research
+
+on:
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: "Dias de historico a analizar (60 = experimento principal, 180 = ampliado)"
+        required: false
+        default: "60"
+      max_symbols:
+        description: "0 = sin limite (universo completo). Usar un numero bajo para pruebas rapidas."
+        required: false
+        default: "0"
+      max_runtime_minutes:
+        description: "0 = sin limite. Si se excede, guarda resultados parciales."
+        required: false
+        default: "330"
+
+jobs:
+  run-research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    defaults:
+      run:
+        working-directory: SPOT_EDGE_S2_INDICATOR_RESEARCH
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: SPOT_EDGE_S2_INDICATOR_RESEARCH/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: pytest tests/ -v
+
+      - name: Run indicator research
+        run: >
+          python spot_indicator_research.py
+          --lookback-days ${{ github.event.inputs.lookback_days || '60' }}
+          --max-symbols ${{ github.event.inputs.max_symbols || '0' }}
+          --max-runtime-minutes ${{ github.event.inputs.max_runtime_minutes || '330' }}
+
+      - name: Upload results as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: RESULTADOS_SPOT_EDGE_S2
+          path: SPOT_EDGE_S2_INDICATOR_RESEARCH/RESULTADOS_SPOT_EDGE_S2/
+          if-no-files-found: warn
+          retention-days: 90
