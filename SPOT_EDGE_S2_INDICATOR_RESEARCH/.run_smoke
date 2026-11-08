@@ -1,0 +1,5 @@
+run_type=smoke
+lookback_days=60
+max_symbols=5
+max_runtime_minutes=30
+requested_by=ChatGPT
