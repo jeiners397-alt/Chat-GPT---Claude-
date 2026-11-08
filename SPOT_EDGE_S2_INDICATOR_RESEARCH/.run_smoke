@@ -3,3 +3,5 @@ lookback_days=60
 max_symbols=5
 max_runtime_minutes=30
 requested_by=ChatGPT
+
+retry_reason=use_data-api.binance.vision_for_exchangeInfo_and_24h
