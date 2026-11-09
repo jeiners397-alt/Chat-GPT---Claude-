@@ -1,0 +1,6 @@
+experiment=S2.1
+mode=two_phase_full
+phase_A=2026-09-08_to_2026-11-06_UTC
+phase_B=2026-07-10_to_2026-09-07_UTC
+max_symbols=all_eligible
+no_real_orders=true

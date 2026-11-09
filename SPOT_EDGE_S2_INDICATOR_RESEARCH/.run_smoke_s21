@@ -1,0 +1,5 @@
+test=integration_smoke
+symbols=BTCUSDT,ETHUSDT,SOLUSDT
+timeframes=1h,4h,1d
+stage=S2.1
+no_real_trading=true

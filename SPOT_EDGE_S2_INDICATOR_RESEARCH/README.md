@@ -157,3 +157,88 @@ y que el registro documente los 200 indicadores sin omitir ninguno.
 3. Ejecutar el experimento ampliado de 180 días una vez validado el de 60.
 4. Para los indicadores Categoría C, diseñar (sin ejecutar todavía) el
    protocolo de la hipótesis de señal inversa.
+
+---
+
+## SPOT EDGE S2.1 — RESEARCH ENGINE VERIFIED (auditoría y corrección)
+
+ChatGPT auditó la corrida real de S2 de 60 días
+(`AUDITORIA_CHATGPT_60D_FULL.md`, run de GitHub Actions `#42443550513`) y
+encontró defectos metodológicos (P0/P1/P2). **S2.1 corrige el motor sin
+modificar ni borrar el código ni los resultados de S2** (siguen siendo
+100% reproducibles): toda la corrección vive en `config_s21.py`,
+`src_s21/` y `spot_edge_s21_research.py`, en paralelo a `config.py`,
+`src/` y `spot_indicator_research.py`.
+
+### Qué corrige S2.1 respecto a S2
+
+| Defecto (auditoría) | Severidad | Corrección en S2.1 |
+|---|---|---|
+| Equity solo registrado al cerrar operaciones (no mark-to-market) | P0 | `src_s21/accounting.py`: `Equity_t = Cash_t + Q_t·P_t` con trayectoria de precios real por operación |
+| Profit Factor calculado sobre % de PnL, no en USDT | P0 | `src_s21/stats.py`: `profit_factor_usdt` es la métrica principal; el PF porcentual se conserva como `profit_factor_pct_legacy` |
+| Orden de ejecución ante señales simultáneas = orden arbitrario de descarga | P0 | `src_s21/backtest.py`: 3 métodos de desempate documentados y reproducibles (A: liquidez causal, B: calidad de señal causal, C: aleatoria con semillas fijas), comparados en `SELECTION_METHOD_COMPARISON.csv` |
+| Universo construido con liquidez del ticker 24h "actual" | P1 | `src_s21/universe.py`: inclusión final decidida con liquidez **histórica real** de la ventana analizada. Limitación de *survivorship bias* por deslistados declarada explícitamente (no eliminable con la API pública) |
+| Stablecoins/fiat/acciones tokenizadas en el universo "cripto" | — | Exclusión explícita (`NON_CRYPTO_BASE_ASSETS`, `TOKENIZED_EQUITY_BASE_ASSETS`) |
+| `compute_benchmark_stats` calculado pero nunca exportado | P1 | `BENCHMARKS.csv` siempre generado: A (BTC buy&hold), B (mantener 100 USDT), C (exposición pasiva al universo elegible) |
+| Régimen BTC con el cierre del mismo día (fuga intradía) | P1 | Régimen calculado con el cierre del día **anterior** (`shift(1)`) |
+| Top Gainer: `hours_before` podía ser negativo; solo 1 patrón de falsa alarma | P0/P1 | `src_s21/topgainers.py`: evaluación estrictamente forward desde la entrada, 5 horizontes (1h/4h/12h/24h/48h), MFE/MAE, comparación contra tasa base |
+| Sin ledger operación-por-operación exportado | P2 | `TRADE_LEDGER.csv`, `EQUITY_DAILY.csv`, `PORTFOLIO_ACCOUNTING.csv` |
+
+### Nueva dimensión: robustez (independiente de la categoría A-E)
+
+`src_s21/classification.py` añade `ALTA/MEDIA/BAJA/INSUFICIENTE`, evaluando
+dependencia de una sola operación extraordinaria (re-simulada excluyendo ese
+símbolo por completo, no restada matemáticamente), resistencia a comisión
+x1/x2/x3, y estabilidad entre al menos 3 activos. **Categoría A nunca se
+interpreta como "rentabilidad validada"**; la robustez es la que indica si
+un resultado merece más escrutinio o no.
+
+### Validación cronológica
+
+- **Fase A**: `2026-09-08T00:00Z` → `2026-11-07T00:00Z` (reproduce exactamente
+  el período original de S2).
+- **Fase B**: `2026-07-10T00:00Z` → `2026-09-08T00:00Z`, histórico
+  inmediatamente anterior, nunca usado para elegir indicadores ni umbrales.
+- **Fase C** (prospectiva, datos posteriores a 2026-11-07): el motor queda
+  listo para ejecutarse sobre esos datos cuando existan; en esta entrega NO
+  se presentan datos futuros ni se etiqueta ninguna prueba histórica como
+  "prospectiva".
+- `scripts/compare_phases.py` compara A vs B y escribe `CHRONOLOGICAL_VALIDATION.csv`.
+
+### Limitaciones declaradas honestamente (no resueltas en esta entrega)
+
+- El sesgo de supervivencia por deslistado de pares no puede eliminarse por
+  completo con la API pública de Binance (ver `UNIVERSE_EXCLUSIONS_NOTA_SURVIVORSHIP.txt`).
+- No se construyó una matriz de dependencia/correlación entre las señales de
+  todos los indicadores Categoría A; queda pendiente para una fase posterior
+  (declarado en `SUMMARY_S21.json`).
+- Con ~450 combinaciones indicador×timeframe×horizonte evaluadas
+  simultáneamente, se advierte explícitamente el riesgo de *data dredging*;
+  ningún resultado individual se presenta como validado sin confirmación en
+  Fase B y, eventualmente, Fase C.
+
+### Cómo correr S2.1
+
+```bash
+pip install -r requirements.txt
+pytest tests/ -v                         # 70 pruebas de S2 + 19 nuevas de S2.1
+python spot_edge_s21_research.py --phase A --max-symbols 10   # prueba rápida
+python spot_edge_s21_research.py --phase A                     # corrida completa Fase A
+python spot_edge_s21_research.py --phase B                     # corrida completa Fase B
+python scripts/compare_phases.py                                # validación cronológica
+```
+
+El workflow `.github/workflows/spot_edge_s21_research.yml` ejecuta: pruebas
+→ smoke test con 3 símbolos → Fase A completa → Fase B completa → comparación
+de fases, publicando cada etapa como artefacto descargable.
+
+### Resultados generados (`RESULTADOS_SPOT_EDGE_S21/`, 17 archivos)
+
+`INDICATOR_METRICS_S21.csv`, `INDICATOR_RANKING_S21.csv`,
+`INDICATOR_BY_SYMBOL_S21.csv`, `INDICATOR_BY_REGIME_S21.csv`,
+`TRADE_LEDGER.csv`, `EQUITY_DAILY.csv`, `PORTFOLIO_ACCOUNTING.csv`,
+`SELECTION_METHOD_COMPARISON.csv`, `UNIVERSE_EXCLUSIONS.csv`,
+`TOP_GAINERS_CAUSAL.csv`, `EIGHT_CONFIGS_AUDIT.csv`,
+`INVERSE_RESEARCH_CANDIDATES.csv`, `BENCHMARKS.csv`,
+`CHRONOLOGICAL_VALIDATION.csv`, `CAUSALITY_CHECKLIST.csv`,
+`DATA_COVERAGE_S21.csv`, `SUMMARY_S21.json`.
